@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		104FD2892704A596000F8800 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104FD2882704A596000F8800 /* QuizViewController.swift */; };
+		104FD28B27052A45000F8800 /* quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = 104FD28A27052A45000F8800 /* quiz.csv */; };
+		104FD28F27082AB9000F8800 /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 104FD28D27082AB9000F8800 /* correct.png */; };
+		104FD29027082AB9000F8800 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 104FD28E27082AB9000F8800 /* incorrect.png */; };
+		104FD2922710545E000F8800 /* Rarity_quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = 104FD2912710545E000F8800 /* Rarity_quiz.csv */; };
 		108EFD2C270072D700FBA7EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108EFD2B270072D700FBA7EC /* AppDelegate.swift */; };
 		108EFD2E270072D700FBA7EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108EFD2D270072D700FBA7EC /* SceneDelegate.swift */; };
 		108EFD30270072D700FBA7EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108EFD2F270072D700FBA7EC /* ViewController.swift */; };
 		108EFD33270072D700FBA7EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108EFD31270072D700FBA7EC /* Main.storyboard */; };
 		108EFD35270072DA00FBA7EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108EFD34270072DA00FBA7EC /* Assets.xcassets */; };
 		108EFD38270072DA00FBA7EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108EFD36270072DA00FBA7EC /* LaunchScreen.storyboard */; };
+		108EFD422700735E00FBA7EC /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108EFD412700735E00FBA7EC /* ScoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		104FD2882704A596000F8800 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		104FD28A27052A45000F8800 /* quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz.csv; sourceTree = "<group>"; };
+		104FD28D27082AB9000F8800 /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		104FD28E27082AB9000F8800 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
+		104FD2912710545E000F8800 /* Rarity_quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rarity_quiz.csv; sourceTree = "<group>"; };
 		108EFD28270072D700FBA7EC /* #コンパスクイズ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "#コンパスクイズ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		108EFD2B270072D700FBA7EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		108EFD2D270072D700FBA7EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,7 @@
 		108EFD34270072DA00FBA7EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		108EFD37270072DA00FBA7EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		108EFD39270072DA00FBA7EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		108EFD412700735E00FBA7EC /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		104FD28C27082AB9000F8800 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				104FD28D27082AB9000F8800 /* correct.png */,
+				104FD28E27082AB9000F8800 /* incorrect.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		108EFD1F270072D700FBA7EC = {
 			isa = PBXGroup;
 			children = (
@@ -59,7 +80,12 @@
 				108EFD2B270072D700FBA7EC /* AppDelegate.swift */,
 				108EFD2D270072D700FBA7EC /* SceneDelegate.swift */,
 				108EFD2F270072D700FBA7EC /* ViewController.swift */,
+				108EFD412700735E00FBA7EC /* ScoreViewController.swift */,
+				104FD28C27082AB9000F8800 /* image */,
 				108EFD31270072D700FBA7EC /* Main.storyboard */,
+				104FD28A27052A45000F8800 /* quiz.csv */,
+				104FD2912710545E000F8800 /* Rarity_quiz.csv */,
+				104FD2882704A596000F8800 /* QuizViewController.swift */,
 				108EFD34270072DA00FBA7EC /* Assets.xcassets */,
 				108EFD36270072DA00FBA7EC /* LaunchScreen.storyboard */,
 				108EFD39270072DA00FBA7EC /* Info.plist */,
@@ -125,9 +151,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				104FD28F27082AB9000F8800 /* correct.png in Resources */,
+				104FD29027082AB9000F8800 /* incorrect.png in Resources */,
 				108EFD38270072DA00FBA7EC /* LaunchScreen.storyboard in Resources */,
 				108EFD35270072DA00FBA7EC /* Assets.xcassets in Resources */,
 				108EFD33270072D700FBA7EC /* Main.storyboard in Resources */,
+				104FD2922710545E000F8800 /* Rarity_quiz.csv in Resources */,
+				104FD28B27052A45000F8800 /* quiz.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +169,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				108EFD30270072D700FBA7EC /* ViewController.swift in Sources */,
+				104FD2892704A596000F8800 /* QuizViewController.swift in Sources */,
 				108EFD2C270072D700FBA7EC /* AppDelegate.swift in Sources */,
+				108EFD422700735E00FBA7EC /* ScoreViewController.swift in Sources */,
 				108EFD2E270072D700FBA7EC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
